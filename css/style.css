@@ -57,7 +57,9 @@ th.columns.padding_b{
 	padding-bottom: 0;
 }
 
-
+.table.button table tr td a:visited, table.button.large table tr td a:visited{
+    color: #333;
+}
 
 table.button table td.btn{
     background: #fff;
@@ -85,10 +87,6 @@ table.button table td.btn2 a{
     text-align: center;
     text-transform: uppercase;
     color: #000000;
-}
-
-table.button table tr td a:visited,table.button.large table tr td a:visited {
-    color: grey;
 }
 
 .content2{
@@ -125,6 +123,10 @@ table.button table tr td a:visited,table.button.large table tr td a:visited {
 
 a,a:visited{
     color: #da7532;
+}
+
+.social-icons a:hover img{
+    filter: invert(18%) sepia(20%) saturate(7064%) hue-rotate(335deg) brightness(103%) contrast(103%);
 }
 
 
