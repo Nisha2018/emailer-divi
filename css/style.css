@@ -58,7 +58,8 @@ th.columns.padding_b{
 }
 
 .table.button table tr td a:visited, table.button.large table tr td a:visited{
-    color: #333;
+    /*color: #333;*/
+    color: #fff;
 }
 
 table.button table td.btn{
@@ -77,8 +78,10 @@ table.button table td a{
 }
 
 table.button table td.btn2{
-    background: transparent;
-    border: 1px solid #000000;
+    /*background: transparent;
+    border: 1px solid #000000;*/
+    border: 1px solid transparent;
+    background: #9f2125;
 }
 
 table.button table td.btn2 a{
@@ -87,6 +90,12 @@ table.button table td.btn2 a{
     text-align: center;
     text-transform: uppercase;
     color: #000000;
+}
+
+.heading{
+    color: #9f2125;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .content2{
